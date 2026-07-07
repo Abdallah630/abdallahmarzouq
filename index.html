@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdallah Saad Marzouk | .NET Backend Developer</title>
+    <meta name="description" content="Portfolio of Abdallah Saad Marzouk, a Backend Developer and .NET Specialist">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo" aria-label="Home">Abdallah<span class="accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn btn-nav">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="visitor-counter glass-pill fade-in" title="Live Profile Views">
+                    <i class="fas fa-eye pulse-icon"></i> <span id="visitor-count">...</span>
+                </div>
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="hero-content fade-in">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Abdallah Saad <span>Marzouk</span></h1>
+                <h2 class="title">Backend Developer | <span class="accent">.NET Specialist</span></h2>
+                <p class="subtitle">Crafting scalable, secure, and high-performance backend systems with .NET
+                    technologies. Passionate about clean architecture, efficient APIs, and seamless user experiences.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in delay">
+                <div class="image-wrapper">
+                    <img src="assets/profile.png" alt="Abdallah Saad Marzouk - Profile">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="section-header fade-in">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="about-content fade-in delay">
+                <div class="about-text glass-card">
+                    <p>I am a 2024 Management Information Systems graduate with 1 year of hands-on experience in Backend
+                        Development. I specialize in building robust web applications and APIs using <strong>ASP.NET
+                            Core and C#</strong>, focusing on Clean Architecture, maintainability, and scalability.</p>
+                    <p>I thrive on solving complex problems, designing secure systems, and continuously learning new
+                        technologies to deliver real impact. I enjoy collaboration, fast-paced environments, and
+                        projects that challenge my technical abilities.</p>
+
+                    <div class="career-objective">
+                        <h3><i class="fas fa-bullseye"></i> Career Objective</h3>
+                        <p>I aim to contribute to innovative backend solutions, work on diverse projects, and
+                            continuously grow as a .NET backend specialist, delivering systems that are secure,
+                            scalable, and maintainable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Technical <span>Skills</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="skills-grid fade-in delay">
+
+                <div class="skill-category glass-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Languages & Frameworks</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> C#</li>
+                        <li><i class="fas fa-check-circle"></i> ASP.NET Core</li>
+                        <li><i class="fas fa-check-circle"></i> Entity Framework Core</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Databases & Querying</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> SQL Server</li>
+                        <li><i class="fas fa-check-circle"></i> LINQ</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>API & Security</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> RESTful APIs</li>
+                        <li><i class="fas fa-check-circle"></i> JWT Auth</li>
+                        <li><i class="fas fa-check-circle"></i> CRUD Operations</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                    <h3>Architecture</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Clean Architecture</li>
+                        <li><i class="fas fa-check-circle"></i> Repository Pattern</li>
+                        <li><i class="fas fa-check-circle"></i> Unit of Work</li>
+                        <li><i class="fas fa-check-circle"></i> Middleware & DI</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools & Utilities</h3>
+                    <ul>
+                        <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+                        <li><i class="fas fa-paper-plane"></i> Postman</li>
+                        <li><i class="fas fa-list-alt"></i> Swagger</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-card learning-card">
+                    <div class="skill-icon"><i class="fas fa-book-reader"></i></div>
+                    <h3>Currently Learning</h3>
+                    <ul>
+                        <li><i class="fas fa-sync"></i> CI/CD</li>
+                        <li><i class="fas fa-flask"></i> Unit Testing</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card glass-card fade-in">
+                    <div class="project-img">
+                        <img src="assets/talabat-1.png" alt="Talabat E-Commerce API"
+                             onerror="this.src='https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&q=80&w=800'">
+                    </div>
+                    <div class="project-info">
+                        <h3>Talabat E-Commerce API</h3>
+                        <p>A production-ready RESTful E-Commerce API built with ASP.NET Core using Onion Architecture.</p>
+                        <div class="tech-stack">
+                            <span>ASP.NET Core</span><span>EF Core</span><span>SQL Server</span><span>Redis</span>
+                        </div>
+                        <button class="btn btn-outline view-project-btn" data-project-id="talabat">View Project</button>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card glass-card fade-in delay">
+                    <div class="project-img">
+                        <img src="assets/blogapp-1.png" alt="Blog Content API"
+                             onerror="this.src='https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=800'">
+                    </div>
+                    <div class="project-info">
+                        <h3>Blog Content API</h3>
+                        <p>A scalable RESTful API built with ASP.NET Core 8 using Clean Architecture.</p>
+                        <div class="tech-stack">
+                            <span>ASP.NET Core 8</span><span>EF Core</span><span>Clean Architecture</span><span>JWT</span>
+                        </div>
+                        <button class="btn btn-outline view-project-btn" data-project-id="blogapp">View Project</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Experience & Services Section -->
+        <section id="experience" class="exp-services section">
+
+            <div class="split-layout">
+                <!-- Experience -->
+                <div class="experience-wrap">
+                    <div class="section-header fade-in">
+                        <h2 class="section-title">My <span>Experience</span></h2>
+                    </div>
+                    <div class="timeline fade-in delay">
+                        <!-- Timeline Item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass-card">
+                                <h3>Freelance Backend Developer</h3>
+                                <h4>Remote</h4>
+                                <span class="date">2024 – Present</span>
+                                <ul>
+                                    <li>Developed and maintained APIs for small businesses and individual clients.</li>
+                                    <li>Implemented secure authentication and efficient database operations.</li>
+                                    <li>Delivered scalable solutions using Clean Architecture principles.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div class="services-wrap">
+                    <div class="section-header fade-in">
+                        <h2 class="section-title">My <span>Services</span></h2>
+                    </div>
+                    <div class="services-list fade-in delay">
+                        <div class="service-item glass-card">
+                            <i class="fas fa-server"></i>
+                            <div>
+                                <h4>Backend Development & API Design</h4>
+                            </div>
+                        </div>
+                        <div class="service-item glass-card">
+                            <i class="fas fa-database"></i>
+                            <div>
+                                <h4>Database Architecture & Optimization</h4>
+                            </div>
+                        </div>
+                        <div class="service-item glass-card">
+                            <i class="fas fa-user-lock"></i>
+                            <div>
+                                <h4>Authentication & Authorization</h4>
+                            </div>
+                        </div>
+                        <div class="service-item glass-card">
+                            <i class="fas fa-laptop-code"></i>
+                            <div>
+                                <h4>Technical Consulting & Code Review</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Get in <span>Touch</span></h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info glass-card fade-in">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out for collaborations, project inquiries, or just to say hi!</p>
+                    <ul class="contact-links">
+                        <li><a href="mailto:abdallahsaad@example.com"><i class="fas fa-envelope"></i> Email Me</a></li>
+                        <li><a href="https://linkedin.com/in/abdallah-saad-925b4224a" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="https://github.com/Abdallah630" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-wrap glass-card fade-in delay">
+                    <div id="form-success-msg" class="alert-success" style="display: none;">
+                        <i class="fas fa-check-circle"></i> تم إرسال رسالتك بنجاح! شكراً لتواصلك.
+                    </div>
+                    <form id="contact-form" action="https://formsubmit.co/as8162672@gmail.com" method="POST" class="contact-form">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="New submission from your Portfolio!">
+                        
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" id="submit-btn" class="btn btn-primary btn-block">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal Overlay -->
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modal-close" aria-label="Close Modal"><i class="fas fa-times"></i></button>
+            <div class="modal-body">
+                <div class="modal-slider-wrap">
+                    <div class="modal-slider" id="modal-slider">
+                        <!-- Images will be injected here -->
+                    </div>
+                    <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                    <div class="modal-slider-dots" id="modal-dots">
+                        <!-- Dots will be injected here -->
+                    </div>
+                </div>
+                
+                <div class="modal-info">
+                    <h2 id="modal-title">Project Title</h2>
+                    <div class="tech-stack" id="modal-tech-stack">
+                        <!-- Tech stacks injected here -->
+                    </div>
+                    <div class="modal-desc" id="modal-description">
+                        <!-- HTML description injected here -->
+                    </div>
+                    <div class="modal-links" id="modal-links">
+                        <a href="#" target="_blank" class="btn btn-primary" id="modal-repo-link"><i class="fab fa-github"></i> GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">Abdallah<span class="accent">.</span></div>
+            <p>&copy; 2026 Abdallah Saad Marzouk. All rights reserved.</p>
+            <a href="#hero" class="back-to-top" aria-label="Back to top">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
